@@ -9,7 +9,7 @@ function App() {
     if (seconds > 0) {
       setTimeout(() => setSeconds(seconds - 1), 1000);
     } else {
-      //window.location = "https://www.youtube.com/watch?v=4QsmR2mb8_U";
+      window.location = "https://www.youtube.com/watch?v=4QsmR2mb8_U";
     }
   });
   return (
@@ -18,7 +18,7 @@ function App() {
       <center>
         <img height="300px" src="https://c.tenor.com/C2PJ_qyD-OwAAAAd/pink-bitch-club-minako.gif"/>
       </center>
-      <h2 id="text_count_down">{seconds} second</h2>
+      <h2 id="text_count_down">{seconds}</h2>
     </main>
   );
 }
