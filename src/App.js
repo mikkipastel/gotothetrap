@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const [seconds, setSeconds] = useState(10);
+  const [seconds, setSeconds] = useState(3);
 
   useEffect(() => {
     if (seconds > 0) {
